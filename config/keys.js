@@ -1,4 +1,5 @@
-module.exports = {
-  MongoURI: "mongodb+srv://kostas123:NXRGY7qpBjNhoAcW@cluster0.4cltg.mongodb.net/?retryWrites=true"
+dbPassword = 'mongodb+srv://YOUR_USERNAME_HERE:'+ encodeURIComponent('YOUR_PASSWORD_HERE') + 'nodepassportlogin.mongodb.net/test?retryWrites=true';
 
-}
+module.exports = {
+    mongoURI: dbPassword
+};
